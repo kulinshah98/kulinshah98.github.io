@@ -14,11 +14,11 @@
     
     <item>
       <title>AI Bot for ultimate tic-tac-toe</title>
-      <link>https://kulinshah98.github.io/project/relative-attributes/</link>
+      <link>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://kulinshah98.github.io/project/relative-attributes/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <guid>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</guid>
+      <description>Implementation of an agent for ultimate tic-tac-toe using Monte Carlo Tree Search and Upper Confidential Bound (UCB).</description>
     </item>
     
     <item>
@@ -59,10 +59,10 @@
     
     <item>
       <title>Relative Attributes</title>
-      <link>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</link>
+      <link>https://kulinshah98.github.io/project/relative-attributes/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</guid>
+      <guid>https://kulinshah98.github.io/project/relative-attributes/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
     </item>
     
