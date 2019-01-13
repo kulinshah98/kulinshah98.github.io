@@ -386,7 +386,7 @@
   
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-    <!-- <li>
+    <li>
       <a class="twitter"
          href="https://twitter.com/intent/tweet?text=Consistent%20Bellman%20Operator&amp;url=https%3a%2f%2fkulinshah98.github.io%2fproject%2fconsistent-bellman-operator%2f"
          target="_blank" rel="noopener">
@@ -419,7 +419,7 @@
          href="mailto:?subject=Consistent%20Bellman%20Operator&amp;body=https%3a%2f%2fkulinshah98.github.io%2fproject%2fconsistent-bellman-operator%2f">
         <i class="fas fa-envelope"></i>
       </a>
-    </li> -->
+    </li>
   </ul>
 </div>
 
@@ -461,37 +461,25 @@
 
 
 
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/slides/example-slides/" target="_blank">
-    Slides
-  </a>
-  
-
-
-
-
-
-  
   
   
     
   
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://twitter.com/georgecushen" target="_blank" rel="noopener">
-    <i class="fab fa-twitter mr-1"></i>
-    Follow
-  </a>
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/kulinshah98/Increasing-the-Action-Gap-RL-pytorch" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </div>
@@ -505,15 +493,66 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
+      
 
-<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
+<p>Pytorch implementation of new reinfrocement learning operators proposed in <a href="https://arxiv.org/abs/1512.04860" target="_blank">Increasing the Action Gap: New Operators for Reinforcement Learning</a> . This paper introduces new optimality-preserving operators on Q-functions. This project includes the source code for training, demo and action gap visualization, and trained models with 3 learning operators for 5 Atari games.</p>
 
-<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
+<h2 id="results">Results</h2>
 
-<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
+<ul>
+<li>Persistent Advantage Learning operator on 5 games : Phoenix, Pong, Breakout, SpaceInvaders and Asterix</li>
+<li>Saved model can be downloaded from <a href="https://drive.google.com/drive/folders/1B-IR61doSWo1vyKHL4bTQjrpqsBok2c4?usp=sharing" target="_blank">here</a></li>
+</ul>
 
-<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+<h2 id="environment-details">Environment Details</h2>
+
+<ul>
+<li>python 3.5</li>
+<li><a href="https://gym.openai.com/" target="_blank">gym</a></li>
+<li><a href="https://pytorch.org/" target="_blank">pytorch</a></li>
+</ul>
+
+<h2 id="implementation-details">Implementation Details</h2>
+
+<ul>
+<li><code>src</code> directory,
+
+<ul>
+<li>To train model, set the environment name in <code>main.py</code>. In <code>dqn_learn.py</code>, set the error according to the operator with which you want to train. Set the hyperparameters and run <code>python3 main.py</code> inside <code>src</code> directory.</li>
+<li>In <code>tmp</code> directory, the results and videos by gym monitor are stored. You can change this directory  while wrapping <code>Monitor</code> wrapper on environment.</li>
+<li><code>models</code> directory stores the  trained models. Saved models can be used to visualize action gap or do a test run. Rewards per episode while training are stored in <code>statistics.pkl</code>.</li>
+</ul></li>
+<li><code>demo_src</code> directory,
+
+<ul>
+<li><code>main_traj.py</code> can be used to run one test episode with trained model. It will also store the observed states which can later be used to plot action gap. Set the environment name (game name) in <code>main_traj.py</code>  and run it. Make sure that you have trained model with appropriate name in <code>models</code> directory.</li>
+<li><code>main_actiongap.py</code> can be used to run normal DQN, AL and PAL for an episode to store the action gap which can be visualized later. First run <code>main_traj.py</code> with appropriate game name to store an episode. Then run <code>main_actiongap.py</code> with the same game name. It will store the actiongap for all 3 operators in a pickle file.</li>
+<li><code>actiongap_plot.py</code> can be used to plot saved actiongap.</li>
+</ul></li>
+<li><code>results</code> directory,
+
+<ul>
+<li><code>videos</code> contains the videos for 5 Atari games on which we have trained Persistent Advantage Learning (PAL) operator. First video is taken at the start of the training and second video is taken after training.</li>
+<li><code>plots</code> includes the plotted results by my training and authors' results.</li>
+</ul></li>
+</ul>
+
+<h2 id="report">Report</h2>
+
+<ul>
+<li><code>report.pdf</code> has indepth analysis of the paper and obtained results. It includes the results obtained by authors which aligns with my results.</li>
+<li><code>presentation.pdf</code> was used to present the project and results.</li>
+</ul>
+
+<h2 id="credit">Credit</h2>
+
+<p>This implementation is inspired from <a href="https://github.com/berkeleydeeprlcourse/homework/tree/master/hw3" target="_blank">https://github.com/berkeleydeeprlcourse/homework/tree/master/hw3</a></p>
+
+<h3 id="todo">TODO</h3>
+
+<ul>
+<li>Source code has some code duplication which can be removed and restructured.</li>
+</ul>
 
     </div>
 

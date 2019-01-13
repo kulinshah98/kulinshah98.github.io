@@ -386,20 +386,20 @@
   
 <div class="share-box" aria-hidden="true">
   <ul class="share">
-     <!-- <li>
+    <li>
       <a class="twitter"
          href="https://twitter.com/intent/tweet?text=AI%20Bot%20for%20ultimate%20tic-tac-toe&amp;url=https%3a%2f%2fkulinshah98.github.io%2fproject%2fai-bot-for-ultimate-tic-tac-toe%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-twitter"></i>
       </a>
     </li>
-     <li>
+    <li>
       <a class="facebook"
          href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkulinshah98.github.io%2fproject%2fai-bot-for-ultimate-tic-tac-toe%2f"
          target="_blank" rel="noopener">
         <i class="fab fa-facebook-f"></i>
       </a>
-    </li> 
+    </li>
     <li>
       <a class="linkedin"
          href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fkulinshah98.github.io%2fproject%2fai-bot-for-ultimate-tic-tac-toe%2f&amp;title=AI%20Bot%20for%20ultimate%20tic-tac-toe"
@@ -419,7 +419,7 @@
          href="mailto:?subject=AI%20Bot%20for%20ultimate%20tic-tac-toe&amp;body=https%3a%2f%2fkulinshah98.github.io%2fproject%2fai-bot-for-ultimate-tic-tac-toe%2f">
         <i class="fas fa-envelope"></i>
       </a>
-    </li> --->
+    </li>
   </ul>
 </div>
 
@@ -493,7 +493,39 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      <p>Implementation of an agent for ultimate tic-tac-toe using Monte Carlo Tree Search and Upper Confidential Bound (UCB).</p>
+      
+
+<p>An AI agent implemented using Monte Carlo Tree Search (MCTS) using Upper Confidence Bounds (UCT).</p>
+
+<h3 id="game-description">Game Description</h3>
+
+<ul>
+<li>Basic game is - <a href="https://mathwithbaddrawings.com/ultimate-tic-tac-toe-original-post/" target="_blank">https://mathwithbaddrawings.com/ultimate-tic-tac-toe-original-post/</a><br /></li>
+<li>But instead of 3*3, it is 4*4</li>
+</ul>
+
+<h3 id="resources-for-mcts-and-uct">Resources for MCTS and UCT</h3>
+
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Monte_Carlo_tree_search" target="_blank">https://en.wikipedia.org/wiki/Monte_Carlo_tree_search</a></li>
+<li><a href="https://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/" target="_blank">https://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/</a></li>
+<li><a href="http://www.cameronius.com/research/mcts/about/index.html" target="_blank">http://www.cameronius.com/research/mcts/about/index.html</a></li>
+</ul>
+
+<h3 id="test">Test</h3>
+
+<ul>
+<li>Tested our agent with several search algorithms and other algorithms</li>
+<li>Our algorithm outperformed all other algorithms</li>
+</ul>
+
+<h3 id="scope-of-improvement">Scope of improvement</h3>
+
+<ul>
+<li>Backpropogation step of MCTS properly to store heuristic</li>
+<li>Implementation in C++ instead of Python for more number of simulations</li>
+<li>Evaluation function</li>
+</ul>
 
     </div>
 

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 27 Feb 2017 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="https://kulinshah98.github.io/tags/other/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,11 @@
     <item>
       <title>Concurrent Voting Mechanism</title>
       <link>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <description>A concurrent process of voting where the threads representing evms, voters and booths run concurrently using conditional variables and mutex locks.
+Implementation Details  Creating thread for each EVM and each voter. Voter thread will call voter function which will wait until he will allocate a EVM to vote. EVM thread will call EVM function. EVM function will generate a random number between 1 to max. capacity of that booth and allocate that many voter to that EVM.</description>
     </item>
     
     <item>
@@ -27,7 +28,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/go-back-n-protocol/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <description>  Go-Back N protocol is error detection and error correction algorithm in the communtication between sender and receiver through socket.  Implementation Details  Created sender and receiver program which can communicate with each other. Go-Back N protocol will detect and correct error in communication between sender and receiver.  Test  To test Go-Back-N protocol, at the receiver side, I randomly skipped some packets.  </description>
     </item>
     
   </channel>

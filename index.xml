@@ -40,30 +40,64 @@
     </item>
     
     <item>
+      <title>Concurrent Voting Mechanism</title>
+      <link>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</link>
+      <pubDate>Mon, 27 Feb 2017 00:00:00 +0530</pubDate>
+      
+      <guid>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</guid>
+      <description>
+
+&lt;p&gt;A concurrent process of voting where the threads representing evms, voters and booths run concurrently using conditional variables and mutex locks.&lt;/p&gt;
+
+&lt;h2 id=&#34;implementation-details&#34;&gt;Implementation Details&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Creating thread for each EVM and each voter.&lt;/li&gt;
+&lt;li&gt;Voter thread will call voter function which will wait until he will allocate a EVM to vote.&lt;/li&gt;
+&lt;li&gt;EVM thread will call EVM function. EVM function will generate a random number between 1 to max. capacity of that booth and allocate that many voter to that EVM. Now EVM thread will give signal to voter thread that voter is a given that EVM to vote then after Voting is done , Voter thread will terminate .After all voter of that booth is done then each EVM thread will terminate.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>AI Bot for ultimate tic-tac-toe</title>
       <link>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</guid>
-      <description>&lt;p&gt;Implementation of an agent for ultimate tic-tac-toe using Monte Carlo Tree Search and Upper Confidential Bound (UCB).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Concurrent Voting Mechanism</title>
-      <link>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://kulinshah98.github.io/project/concurrent-voting-mechanism/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;An AI agent implemented using Monte Carlo Tree Search (MCTS) using Upper Confidence Bounds (UCT).&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;h3 id=&#34;game-description&#34;&gt;Game Description&lt;/h3&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Basic game is - &lt;a href=&#34;https://mathwithbaddrawings.com/ultimate-tic-tac-toe-original-post/&#34; target=&#34;_blank&#34;&gt;https://mathwithbaddrawings.com/ultimate-tic-tac-toe-original-post/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;But instead of 3*3, it is 4*4&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h3 id=&#34;resources-for-mcts-and-uct&#34;&gt;Resources for MCTS and UCT&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Monte_Carlo_tree_search&#34; target=&#34;_blank&#34;&gt;https://en.wikipedia.org/wiki/Monte_Carlo_tree_search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/&#34; target=&#34;_blank&#34;&gt;https://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cameronius.com/research/mcts/about/index.html&#34; target=&#34;_blank&#34;&gt;http://www.cameronius.com/research/mcts/about/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;test&#34;&gt;Test&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Tested our agent with several search algorithms and other algorithms&lt;/li&gt;
+&lt;li&gt;Our algorithm outperformed all other algorithms&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;scope-of-improvement&#34;&gt;Scope of improvement&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Backpropogation step of MCTS properly to store heuristic&lt;/li&gt;
+&lt;li&gt;Implementation in C++ instead of Python for more number of simulations&lt;/li&gt;
+&lt;li&gt;Evaluation function&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -73,15 +107,66 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/consistent-bellman-operator/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Pytorch implementation of new reinfrocement learning operators proposed in &lt;a href=&#34;https://arxiv.org/abs/1512.04860&#34; target=&#34;_blank&#34;&gt;Increasing the Action Gap: New Operators for Reinforcement Learning&lt;/a&gt; . This paper introduces new optimality-preserving operators on Q-functions. This project includes the source code for training, demo and action gap visualization, and trained models with 3 learning operators for 5 Atari games.&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Persistent Advantage Learning operator on 5 games : Phoenix, Pong, Breakout, SpaceInvaders and Asterix&lt;/li&gt;
+&lt;li&gt;Saved model can be downloaded from &lt;a href=&#34;https://drive.google.com/drive/folders/1B-IR61doSWo1vyKHL4bTQjrpqsBok2c4?usp=sharing&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;environment-details&#34;&gt;Environment Details&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;python 3.5&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gym.openai.com/&#34; target=&#34;_blank&#34;&gt;gym&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pytorch.org/&#34; target=&#34;_blank&#34;&gt;pytorch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;implementation-details&#34;&gt;Implementation Details&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src&lt;/code&gt; directory,
+
+&lt;ul&gt;
+&lt;li&gt;To train model, set the environment name in &lt;code&gt;main.py&lt;/code&gt;. In &lt;code&gt;dqn_learn.py&lt;/code&gt;, set the error according to the operator with which you want to train. Set the hyperparameters and run &lt;code&gt;python3 main.py&lt;/code&gt; inside &lt;code&gt;src&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;In &lt;code&gt;tmp&lt;/code&gt; directory, the results and videos by gym monitor are stored. You can change this directory  while wrapping &lt;code&gt;Monitor&lt;/code&gt; wrapper on environment.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;models&lt;/code&gt; directory stores the  trained models. Saved models can be used to visualize action gap or do a test run. Rewards per episode while training are stored in &lt;code&gt;statistics.pkl&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;demo_src&lt;/code&gt; directory,
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;main_traj.py&lt;/code&gt; can be used to run one test episode with trained model. It will also store the observed states which can later be used to plot action gap. Set the environment name (game name) in &lt;code&gt;main_traj.py&lt;/code&gt;  and run it. Make sure that you have trained model with appropriate name in &lt;code&gt;models&lt;/code&gt; directory.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;main_actiongap.py&lt;/code&gt; can be used to run normal DQN, AL and PAL for an episode to store the action gap which can be visualized later. First run &lt;code&gt;main_traj.py&lt;/code&gt; with appropriate game name to store an episode. Then run &lt;code&gt;main_actiongap.py&lt;/code&gt; with the same game name. It will store the actiongap for all 3 operators in a pickle file.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;actiongap_plot.py&lt;/code&gt; can be used to plot saved actiongap.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;results&lt;/code&gt; directory,
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;videos&lt;/code&gt; contains the videos for 5 Atari games on which we have trained Persistent Advantage Learning (PAL) operator. First video is taken at the start of the training and second video is taken after training.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;plots&lt;/code&gt; includes the plotted results by my training and authors&#39; results.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;report&#34;&gt;Report&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;report.pdf&lt;/code&gt; has indepth analysis of the paper and obtained results. It includes the results obtained by authors which aligns with my results.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;presentation.pdf&lt;/code&gt; was used to present the project and results.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;credit&#34;&gt;Credit&lt;/h2&gt;
+
+&lt;p&gt;This implementation is inspired from &lt;a href=&#34;https://github.com/berkeleydeeprlcourse/homework/tree/master/hw3&#34; target=&#34;_blank&#34;&gt;https://github.com/berkeleydeeprlcourse/homework/tree/master/hw3&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Source code has some code duplication which can be removed and restructured.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -91,15 +176,24 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/go-back-n-protocol/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Go-Back N protocol is error detection and error correction algorithm in the communtication between sender and receiver through socket.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-details&#34;&gt;Implementation Details&lt;/h2&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Created sender and receiver program which can communicate with each other.&lt;/li&gt;
+&lt;li&gt;Go-Back N protocol will detect and correct error in communication between sender and receiver.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;test&#34;&gt;Test&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To test Go-Back-N protocol, at the receiver side, I randomly skipped some packets.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -127,15 +221,23 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/relative-attributes/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Python Implementation of Visual Relative Attributes for Image Classification and Zero Shot Learning&lt;/p&gt;
 
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;h2 id=&#34;description&#34;&gt;Description&lt;/h2&gt;
 
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;This implementation refers to paper &lt;code&gt;Relative Attributes, D. Parikh and K. Grauman, International Conference on Computer Vision (ICCV), 2011&lt;/code&gt;. Original code given by authors was in matlab. This repo contains python code for learning relative ranking function using Newton optimization implemented from scratch. Also Zero Shot Learning with Gaussian Mixture Model is implemented in python.&lt;/p&gt;
 
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+&lt;h2 id=&#34;implementation-details&#34;&gt;Implementation Details&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(src/rank_svm.py) - contains the implementation of rank svm using Newton&#39;s method.&lt;/li&gt;
+&lt;li&gt;(src/zero_shot_training.py) - training files for zero shot learning respectively.&lt;/li&gt;
+&lt;li&gt;(src/zero_shot_GMM.py) - testing files for zero shot learning respectively.&lt;/li&gt;
+&lt;li&gt;Pre-extracted gist features from &#39;PubFig&#39; dataset are used in this implementation. To train on new dataset, (gist) module and (src/extract_feature.m) can be used to extract gist features.&lt;/li&gt;
+&lt;li&gt;Learned ranking function, preprocessed data, etc. are read and saved in (demo) directory.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -145,16 +247,7 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/universal-style-transfer/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>

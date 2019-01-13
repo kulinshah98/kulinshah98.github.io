@@ -18,7 +18,9 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/ai-bot-for-ultimate-tic-tac-toe/</guid>
-      <description>Implementation of an agent for ultimate tic-tac-toe using Monte Carlo Tree Search and Upper Confidential Bound (UCB).</description>
+      <description> An AI agent implemented using Monte Carlo Tree Search (MCTS) using Upper Confidence Bounds (UCT).
+Game Description  Basic game is - https://mathwithbaddrawings.com/ultimate-tic-tac-toe-original-post/
+ But instead of 3*3, it is 4*4  Resources for MCTS and UCT  https://en.wikipedia.org/wiki/Monte_Carlo_tree_search https://jeffbradberry.com/posts/2015/09/intro-to-monte-carlo-tree-search/ http://www.cameronius.com/research/mcts/about/index.html  Test  Tested our agent with several search algorithms and other algorithms Our algorithm outperformed all other algorithms  Scope of improvement  Backpropogation step of MCTS properly to store heuristic Implementation in C++ instead of Python for more number of simulations Evaluation function  </description>
     </item>
     
     <item>
@@ -27,7 +29,8 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/project/consistent-bellman-operator/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus.</description>
+      <description>Pytorch implementation of new reinfrocement learning operators proposed in Increasing the Action Gap: New Operators for Reinforcement Learning . This paper introduces new optimality-preserving operators on Q-functions. This project includes the source code for training, demo and action gap visualization, and trained models with 3 learning operators for 5 Atari games.
+Results  Persistent Advantage Learning operator on 5 games : Phoenix, Pong, Breakout, SpaceInvaders and Asterix Saved model can be downloaded from here  Environment Details  python 3.</description>
     </item>
     
   </channel>
