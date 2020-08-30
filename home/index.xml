@@ -19,17 +19,9 @@
       
       <guid>https://kulinshah98.github.io/home/about/</guid>
       <description>Website under construction
-Biography I am a final year undergraduate student at International Institute of Information Technology, Hyderabad (IIIT Hyderabad), India. I am currently working under guidance of Dr. Naresh Manwani. I am affiliated with the Machine Learning Lab, KCIS, IIIT Hyderabad.
-My researech interest lies in Machine Learning and application of Machine Learning in Computer Vision, Robotics and Natural Language Processing.</description>
-    </item>
-    
-    <item>
-      <title>Recent News</title>
-      <link>https://kulinshah98.github.io/home/news/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://kulinshah98.github.io/home/news/</guid>
-      <description>[November 2018] My paper titled &amp;quot;Sparse Reject Option Classifier using Successive Linear Programming&amp;quot; has been accepted for oral presentation at the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI-19). [October 2018] I have been awarded Dean&#39;s List award for my perfect 10 GPA in Spring, 2018 semester. [October 2018] Our team QueensGambit came 34 in India in online round of ACM ICPC, 2018. [April 2018] I will be working with Dr.</description>
+Biography I am a research fellow at Microsoft Research India, where I work with Amit Deshpande and Navin Goyal. My current research focuses on understanding deep generative models through theory and experiments.
+Previously, I obtained my B.Tech. in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), where I worked with Naresh Manwani from Machine Learning Lab at IIIT-H.
+I like to (a) understand machine learning algorithms using theory and experiments and (b) propose new algorithms which have theoretical guarantees.</description>
     </item>
     
     <item>
@@ -56,10 +48,8 @@ My researech interest lies in Machine Learning and application of Machine Learni
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/home/positions/</guid>
-      <description>  Subreviewer, 2018 ACM IKDD CoDS-COMAD, 2018
- Teaching Assistant, Jan 2018 - May 2018 Statistical Methods in AI
- Teaching Assistant, Aug 2017 - Dec 2017 Algorithms
- Volleyball Team Captain, 2017-2018 Agni house volleyball team captain in Volleyball Inter-House Competition, 2017-2018
+      <description>  Subreviewer IJCAI 2019, IJCNN 2019, ACM IKDD CoDS-COMAD 2018
+ Teaching Assistant Linear Algebra (Spring 2019), Statistical Methods in AI (Spring 2018), Algorithms (Monsoon 2017)
   </description>
     </item>
     
