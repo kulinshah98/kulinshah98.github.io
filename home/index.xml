@@ -18,10 +18,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
       <guid>https://kulinshah98.github.io/home/about/</guid>
-      <description>Website under construction
-Biography I am a research fellow at Microsoft Research India, where I work with Amit Deshpande and Navin Goyal. My current research focuses on understanding deep generative models through theory and experiments.
-Previously, I obtained my B.Tech. in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), where I worked with Naresh Manwani from Machine Learning Lab at IIIT-H.
-I like to (a) understand machine learning algorithms using theory and experiments and (b) propose new algorithms which have theoretical guarantees.</description>
+      <description>`Website under construction` ## Biography -- About me I am a research fellow at Microsoft Research India, where I work with Amit Deshpande and Navin Goyal. My current research focuses on understanding deep generative models through theory and experiments.
+Previously, I obtained my B.Tech. in Computer Science from International Institute of Information Technology, Hyderabad (IIIT-H), where I worked with Naresh Manwani from Machine Learning Lab.
+I like to understand and gain insights in practical machine learning algorithms using theory and experiments, and using those insights propose new algorithms to benefit practice with theoretical guarantees.</description>
     </item>
     
     <item>
@@ -34,15 +33,6 @@ I like to (a) understand machine learning algorithms using theory and experiment
     </item>
     
     <item>
-      <title>Work Experience</title>
-      <link>https://kulinshah98.github.io/home/experiences/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kulinshah98.github.io/home/experiences/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Positions</title>
       <link>https://kulinshah98.github.io/home/positions/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
@@ -51,24 +41,6 @@ I like to (a) understand machine learning algorithms using theory and experiment
       <description>  Subreviewer IJCAI 2019, IJCNN 2019, ACM IKDD CoDS-COMAD 2018
  Teaching Assistant Linear Algebra (Spring 2019), Statistical Methods in AI (Spring 2018), Algorithms (Monsoon 2017)
   </description>
-    </item>
-    
-    <item>
-      <title>Selected Projects</title>
-      <link>https://kulinshah98.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://kulinshah98.github.io/home/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://kulinshah98.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
-      
-      <guid>https://kulinshah98.github.io/home/contact/</guid>
-      <description></description>
     </item>
     
   </channel>
