@@ -112,6 +112,16 @@ a:hover {
     filter: grayscale(30%);
 }
 
+.bestpaper {
+    color:rgb(32, 32, 230);
+    font-weight: 600;
+}
+
+.position {
+    color:rgb(231, 30, 30);
+    font-weight: 500;
+}
+
 .oral {
     color:rgb(19, 27, 112);
     font-weight: 500;
