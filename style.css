@@ -43,6 +43,10 @@ a:hover {
     font-weight: 378;
 }
 
+.paper-link-tail {
+    white-space: nowrap;
+}
+
 .menulink:hover {
     color: #030303;
 }
